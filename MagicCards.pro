@@ -9,10 +9,17 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Deck.cpp \
+    DeckList.cpp \
+    Matchup.cpp \
+    magic.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    Deck.h \
+    DeckList.h \
+    Matchup.h \
     mainwindow.h
 
 FORMS += \
